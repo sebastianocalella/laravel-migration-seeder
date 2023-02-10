@@ -1,1 +1,13 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+.tickets{
+    color: rgb(156, 171, 187);
+
+    .card{
+        height: 240px;
+
+        span{
+            font-weight: bold;
+        }
+    }
+}
