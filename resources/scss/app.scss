@@ -1,13 +1,28 @@
 @import '~bootstrap/scss/bootstrap';
 
-.tickets{
-    color: rgb(156, 171, 187);
+main{
 
-    .card{
-        height: 240px;
+    background-image: url(../images/How-Trains-Work---1600x900.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 
-        span{
-            font-weight: bold;
+    .tickets{
+        color: rgb(156, 171, 187);
+        background-color: rgba(255, 255, 255, 0.450);
+        height: 100%;
+
+        .container{
+            overflow: hidden scroll;
+            height: 600px;
+
+            .card{
+                height: 240px;
+        
+                span{
+                    font-weight: bold;
+                }
+            }
         }
+    
     }
 }
